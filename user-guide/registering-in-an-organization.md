@@ -1,4 +1,4 @@
-# 📪 Making a post
+# 🔰 Registering in an Organization
 
 ## Step 1 - Start journalling
 

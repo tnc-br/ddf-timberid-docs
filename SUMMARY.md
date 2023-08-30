@@ -1,24 +1,34 @@
 # Table of contents
 
-* [👋 Welcome to TimberID](README.md)
+* [🌳 Welcome to TimberID](README.md)
 
 ## Overview
 
-* [💡 What is TimberID](overview/what-is-timberid.md)
-* [✨ Our Features](overview/our-features.md)
+* [🌳 What is TimberID](overview/what-is-timberid.md)
+* [✨ Our Mission and Goals](overview/our-mission-and-goals.md)
 
-## Product Guides
+## User Guide
 
-* [📪 Making a post](product-guides/making-a-post.md)
-* [📎 Understanding Projects](product-guides/understanding-projects.md)
+* [🔰 Registering in an Organization](user-guide/registering-in-an-organization.md)
+* [🔎 Analyzing a Timber Sample](user-guide/analyzing-a-timber-sample.md)
+* [🪵 Adding and Importing Reference Samples](user-guide/adding-and-importing-reference-samples.md)
+* [📤 Exporting Data](user-guide/exporting-data.md)
+* [🌎 Accessing Earth Engine published data](user-guide/accessing-earth-engine-published-data.md)
 
-## Fundamentals
+## Architecture of TimberID
 
-* [🛠 Getting set up](fundamentals/getting-set-up/README.md)
-  * [📝 Setting permissions](fundamentals/getting-set-up/setting-permissions.md)
-  * [🧑 Inviting Members](fundamentals/getting-set-up/inviting-members.md)
+* [🛠 High Level Design](architecture-of-timberid/high-level-design.md)
+* [♒ Front End](architecture-of-timberid/front-end.md)
+* [🖥 Analytics](architecture-of-timberid/analytics.md)
+* [👩🔬 Research](architecture-of-timberid/research.md)
 
-## Github Repositories
+## How-To Guides for Developers
 
-* [🎨 TimberID Front End](github-repositories/timberid-front-end.md)
-* [🖥 For Developers](github-repositories/for-developers.md)
+* [🛠 Getting Permissions](how-to-guides-for-developers/getting-permissions/README.md)
+  * [📝 Setting permissions](how-to-guides-for-developers/getting-permissions/setting-permissions.md)
+  * [🧑 Inviting Members](how-to-guides-for-developers/getting-permissions/inviting-members.md)
+
+***
+
+* [📚 DDF Repositories](ddf-repositories.md)
+* [👾 Using the test environment](using-the-test-environment.md)

@@ -2,7 +2,7 @@
 description: https://timberid.gitbook.io/timberid/
 ---
 
-# 👋 Welcome to TimberID
+# 🌳 Welcome to TimberID
 
 ## Overview
 
@@ -24,22 +24,22 @@ Here are a couple of example overviews from products with really great docs:
 [what-is-timberid.md](overview/what-is-timberid.md)
 {% endcontent-ref %}
 
-{% content-ref url="overview/our-features.md" %}
-[our-features.md](overview/our-features.md)
+{% content-ref url="overview/our-mission-and-goals.md" %}
+[our-mission-and-goals.md](overview/our-mission-and-goals.md)
 {% endcontent-ref %}
 
 ## Get Started
 
 We've put together some helpful guides for you to get setup with our product quickly and easily.
 
-{% content-ref url="fundamentals/getting-set-up/" %}
-[getting-set-up](fundamentals/getting-set-up/)
+{% content-ref url="architecture-of-timberid/high-level-design.md" %}
+[high-level-design.md](architecture-of-timberid/high-level-design.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/getting-set-up/setting-permissions.md" %}
-[setting-permissions.md](fundamentals/getting-set-up/setting-permissions.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/getting-set-up/inviting-members.md" %}
-[inviting-members.md](fundamentals/getting-set-up/inviting-members.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

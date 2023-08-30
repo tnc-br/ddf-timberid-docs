@@ -1,4 +1,4 @@
-# 📎 Understanding Projects
+# 🔎 Analyzing a Timber Sample
 
 ## How Projects work
 
