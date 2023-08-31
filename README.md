@@ -18,6 +18,10 @@ Here are a couple of example overviews from products with really great docs:
 >
 > — From the [Mailchimp Marketing API docs](https://mailchimp.com/developer/marketing/docs/fundamentals/)
 
+##
+
+<figure><img src=".gitbook/assets/arch.png" alt=""><figcaption></figcaption></figure>
+
 ## Quick links
 
 {% content-ref url="overview/what-is-timberid.md" %}
