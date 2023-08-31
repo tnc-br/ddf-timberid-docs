@@ -5,15 +5,15 @@
 ## Overview
 
 * [🌳 What is TimberID](overview/what-is-timberid.md)
-* [✨ Our Mission and Goals](overview/our-mission-and-goals.md)
+* [✨ Mission and Goals](overview/mission-and-goals.md)
 
 ## User Guide
 
-* [🔰 Registering in an Organization](user-guide/registering-in-an-organization.md)
-* [🔎 Analyzing a Timber Sample](user-guide/analyzing-a-timber-sample.md)
-* [🪵 Adding and Importing Reference Samples](user-guide/adding-and-importing-reference-samples.md)
-* [📤 Exporting Data](user-guide/exporting-data.md)
-* [🌎 Accessing Earth Engine published data](user-guide/accessing-earth-engine-published-data.md)
+* [🔰 Registering](user-guide/registering.md)
+* [🔎 Analyzing a Sample](user-guide/analyzing-a-sample.md)
+* [🪵 Adding+ Importing Samples](user-guide/adding+-importing-samples.md)
+* [📤 Exporting](user-guide/exporting.md)
+* [🌎 Earth Engine API](user-guide/earth-engine-api.md)
 
 ## Architecture of TimberID
 
@@ -31,4 +31,4 @@
 ***
 
 * [📚 DDF Repositories](ddf-repositories.md)
-* [👾 Using the test environment](using-the-test-environment.md)
+* [👾 Test Environment](test-environment.md)

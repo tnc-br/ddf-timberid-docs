@@ -24,8 +24,8 @@ Here are a couple of example overviews from products with really great docs:
 [what-is-timberid.md](overview/what-is-timberid.md)
 {% endcontent-ref %}
 
-{% content-ref url="overview/our-mission-and-goals.md" %}
-[our-mission-and-goals.md](overview/our-mission-and-goals.md)
+{% content-ref url="overview/mission-and-goals.md" %}
+[mission-and-goals.md](overview/mission-and-goals.md)
 {% endcontent-ref %}
 
 ## Get Started
