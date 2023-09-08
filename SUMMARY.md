@@ -34,6 +34,7 @@
 * [♒ Front End](architecture-of-timberid/front-end.md)
 * [🖥 Analytics](architecture-of-timberid/analytics.md)
 * [👩🔬 Research](architecture-of-timberid/research.md)
+* [📗 Glossary](architecture-of-timberid/glossary.md)
 
 ## How-To Guides for Developers
 

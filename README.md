@@ -10,8 +10,6 @@ Here are a couple of example overviews from products with really great docs:
 
 
 
-<figure><img src=".gitbook/assets/arch.png" alt=""><figcaption></figcaption></figure>
-
 ## Quick links
 
 {% content-ref url="overview/what-is-timberid.md" %}
