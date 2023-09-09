@@ -31,9 +31,12 @@
 ## Architecture of TimberID
 
 * [🛠 High Level Design](architecture-of-timberid/high-level-design.md)
-* [♒ Front End](architecture-of-timberid/front-end.md)
+* [♒ Front End and Database](architecture-of-timberid/front-end-and-database.md)
 * [🖥 Analytics](architecture-of-timberid/analytics.md)
-* [👩🔬 Research](architecture-of-timberid/research.md)
+* [👩🔬 Research and Earth Engine](architecture-of-timberid/research-and-earth-engine/README.md)
+  * [Ingestion](architecture-of-timberid/research-and-earth-engine/ingestion.md)
+  * [Isoscape Generation](architecture-of-timberid/research-and-earth-engine/isoscape-generation.md)
+  * [Validation of Isoscapes](architecture-of-timberid/research-and-earth-engine/validation-of-isoscapes.md)
 * [📗 Glossary](architecture-of-timberid/glossary.md)
 
 ## How-To Guides for Developers
