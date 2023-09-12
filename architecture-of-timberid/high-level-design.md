@@ -1,5 +1,7 @@
 # 🛠 High Level Design
 
+## **Components**
+
 TimberID has several high level components:
 
 1. A UI is used to track and store both reference and untrusted samples (The Timber ID frontend)
@@ -18,6 +20,8 @@ This  allows a clean separation between front and back end where the front end s
 
 ***
 
+## **Architecture**
+
 The new model of Backend-as-a-Service does not completely get rid of back end code. In cases where complex offline, asynchronous code or sensitive logic (such as fraud verification) must be run, the typical approach is to connect cloud functions directly to the shared database. Both sides (front end and back end) then listen on state changes to the database, each making changes based on user input (in the case of the front end) or the back end (in the case of complex calculations completing).
 
 The below high level diagram summarizes our approach.
@@ -28,3 +32,4 @@ The front end reads and writes directly to the Sample Database. Backend processe
 
 <table><thead><tr><th width="235">Component</th><th>Capability</th></tr></thead><tbody><tr><td>TimberID Front End</td><td>A Web front end that supports importing and exporting reference timber samples.<br>Users may also enter in untrusted timber samples and obtain an analysis of the timber that includes origin verification.</td></tr><tr><td>Sample Rules</td><td>Authorization Rules script that ensures that organizations/users cannot alter or read each other's samples</td></tr><tr><td>Sample Database</td><td>A NoSQL database that stores both externally measured attributes of timber and computed analysis results.</td></tr><tr><td>Cloud Trigger</td><td>The Cloud Triggers launch functions based on a configurable set of conditions including time based (as in a cron) or when a database Document changes</td></tr><tr><td>Origin Verification</td><td>A Function invoked via a Cloud Trigger when a new untrusted timber sample has been added to the database.</td></tr><tr><td>Earth Engine Export</td><td>A Function invoked via a Cloud Trigger periodically to export all samples of all organizations to Earth Engine.</td></tr></tbody></table>
 
+##

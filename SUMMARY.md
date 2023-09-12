@@ -22,12 +22,6 @@
   * [🧑🤝🧑 Creating Orgs](user-guide/administration-guide/creating-orgs.md)
   * [🚸 Managing Users](user-guide/administration-guide/managing-users.md)
 
-## Roadmap
-
-* [📈 Success Benchmarks](roadmap/success-benchmarks.md)
-* [📃 Prioritized Feature Backlog](roadmap/prioritized-feature-backlog.md)
-* [🛣 2023-2024 Roadmap](roadmap/2023-2024-roadmap.md)
-
 ## Architecture of TimberID
 
 * [🛠 High Level Design](architecture-of-timberid/high-level-design.md)
@@ -61,3 +55,10 @@
   * [Fixing a UI bug](example-changes/fixing-a-ui-bug.md)
   * [Adding a new Field](example-changes/adding-a-new-field.md)
   * [Adding a new Analysis](example-changes/adding-a-new-analysis.md)
+
+## Internal
+
+* [📈 Success Benchmarks](internal/success-benchmarks.md)
+* [📃 Prioritized Feature Backlog](internal/prioritized-feature-backlog.md)
+* [🛣 2023-2024 Roadmap](internal/2023-2024-roadmap.md)
+* [🔐 Admin Accounts](internal/admin-accounts.md)
