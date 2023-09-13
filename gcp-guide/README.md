@@ -10,7 +10,7 @@ All Google Cloud Assets are stored in a hierarchical structure with the timberid
 
 Below is a diagram of the hierarchy you will also find in the [resource manager in Google Cloud](https://console.cloud.google.com/cloud-resource-manager).
 
-<img src="../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
 
 
