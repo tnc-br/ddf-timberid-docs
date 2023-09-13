@@ -42,6 +42,7 @@
   * [🏢 Production Environment](architecture-of-timberid/gcp-guide/production-environment.md)
 * [📚 DDF Github Repo](architecture-of-timberid/ddf-github-repo.md)
 * [🦋 Ux Assets](architecture-of-timberid/ux-assets.md)
+* [🚀 Test Procedure for Production Release](architecture-of-timberid/test-procedure-for-production-release.md)
 * [📗 Glossary](architecture-of-timberid/glossary.md)
 
 ## Internal
