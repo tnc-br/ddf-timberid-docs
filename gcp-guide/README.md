@@ -40,3 +40,8 @@ Additional things you can do with the Firebase console:
 * Receive alerts when something goes wrong with your apps.
 
 The Firebase console is a powerful tool that can help you manage, develop, and distribute your mobile and web apps.
+
+
+
+## Firebase Learning Resources
+
