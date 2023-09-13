@@ -32,30 +32,17 @@
   * [Ingestion](architecture-of-timberid/variational-inference-colabs/ingestion.md)
   * [Isoscape Generation](architecture-of-timberid/variational-inference-colabs/isoscape-generation.md)
   * [Validation of Isoscapes](architecture-of-timberid/variational-inference-colabs/validation-of-isoscapes.md)
+* [🌩 GCP Guide](architecture-of-timberid/gcp-guide/README.md)
+  * [🌐 Firebase Hosting](architecture-of-timberid/gcp-guide/firebase-hosting.md)
+  * [📦 Firestore](architecture-of-timberid/gcp-guide/firestore.md)
+  * [⤵ Triggers and Functions](architecture-of-timberid/gcp-guide/triggers-and-functions.md)
+  * [🌪 TimberID Organization](architecture-of-timberid/gcp-guide/timberid-organization.md)
+  * [👾 Test Environment](architecture-of-timberid/gcp-guide/test-environment/README.md)
+    * [What use cases to manually test.](architecture-of-timberid/gcp-guide/test-environment/what-use-cases-to-manually-test..md)
+  * [🏢 Production Environment](architecture-of-timberid/gcp-guide/production-environment.md)
+* [📚 DDF Github Repo](architecture-of-timberid/ddf-github-repo.md)
+* [🦋 Ux Assets](architecture-of-timberid/ux-assets.md)
 * [📗 Glossary](architecture-of-timberid/glossary.md)
-
-## How-To Guides for Developers
-
-* [🛠 Getting Permissions](how-to-guides-for-developers/getting-permissions/README.md)
-  * [📝 Setting permissions](how-to-guides-for-developers/getting-permissions/setting-permissions.md)
-  * [🧑 Access Controls on Cloud and Earth Engine](how-to-guides-for-developers/getting-permissions/access-controls-on-cloud-and-earth-engine.md)
-
-***
-
-* [📚 DDF Repositories](ddf-repositories.md)
-* [🦋 Ux Assets](ux-assets.md)
-* [🌩 GCP Guide](gcp-guide/README.md)
-  * [🌐 Firebase Hosting](gcp-guide/firebase-hosting.md)
-  * [📦 Firestore](gcp-guide/firestore.md)
-  * [⤵ Triggers and Functions](gcp-guide/triggers-and-functions.md)
-  * [🌪 TimberID Organization](gcp-guide/timberid-organization.md)
-  * [👾 Test Environment](gcp-guide/test-environment/README.md)
-    * [What use cases to manually test.](gcp-guide/test-environment/what-use-cases-to-manually-test..md)
-  * [🏢 Production Environment](gcp-guide/production-environment.md)
-* [⚡ Example Changes](example-changes/README.md)
-  * [Fixing a UI bug](example-changes/fixing-a-ui-bug.md)
-  * [Adding a new Field](example-changes/adding-a-new-field.md)
-  * [Adding a new Analysis](example-changes/adding-a-new-analysis.md)
 
 ## Internal
 
