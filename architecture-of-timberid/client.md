@@ -5,7 +5,7 @@
 The Client consists of the Front End, which is written in Typescript and hosted using [Firebase Hosting](https://firebase.google.com/docs/hosting). This is a Firebase web application and directly reads and writes to the underlying backend [Firestore](https://firebase.google.com/docs/firestore).
 
 {% hint style="info" %}
-Source for the Front End is open source and located in [the tnc-br github organization](https://github.com/tnc-br/ddf-sample-tracking/tree/main).
+The Front End is open sourced at [the tnc-br github organization](https://github.com/tnc-br/ddf-sample-tracking/tree/main).
 {% endhint %}
 
 The client contains the following functionality
@@ -80,4 +80,7 @@ Add your string to [translations.json](https://github.com/tnc-br/ddf-sample-trac
 You should first install the [firebase CLI](https://firebase.google.com/docs/hosting#implementation\_path) to manage deployments.  This tool allows you to [view and test your changes before going live](https://firebase.google.com/docs/hosting/test-preview-deploy).
 
 The github repository has github actions already configured to generate live previews URLS for all PRs.  You can find out more about how these actions were configured [here](https://firebase.google.com/docs/hosting/github-integration#set-up).
+
+* Merging code into the Main branch will automatically update the development environment: [development.timberid.org](https://development.timberid.org)
+* You must manually run a Github action to deploy code from the Main branch to the production url [timberid.org](https://timberid.org)
 
