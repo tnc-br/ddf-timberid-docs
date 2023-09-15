@@ -6,4 +6,6 @@
 
 ### Contributing to TimberID
 
-All TimberID related repositories are open source. Anyone may submit a pull request into the main branch. However, only TimberID owners may approve changes. The&#x20;
+All TimberID related repositories are open source. Anyone may submit a pull request into the main branch. However, only TimberID owners may approve changes.&#x20;
+
+The [CODEOWNERS](https://github.com/tnc-br/ddf-sample-tracking/blob/main/CODEOWNERS) in each repository file lists the owner as [tnc-br/TimberIDOwner](https://github.com/orgs/tnc-br/teams/timberidowner). You may request owners of [tnc-br/](https://github.com/orgs/tnc-br/people) to be added to this group to approve PRs.
