@@ -17,7 +17,7 @@ The schema of the database is below.
 
 You may edit and view the database contents using the [Firebase Panel View](https://firebase.corp.google.com/u/0/project/river-sky-386919/firestore/data/). This allows you to view/edit data, run queries and examine security rules.
 
-<figure><img src="../.gitbook/assets/firestore.png" alt=""><figcaption><p>Cloud Firestore Panel View</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/firestore.png" alt=""><figcaption><p>Cloud Firestore Panel View</p></figcaption></figure>
 
 #### Security Rules
 
@@ -58,7 +58,7 @@ functions-framework --target=YOUR_FUNCTION_NAME
 
 Extensive production and development environment information is found for each cloud function in the [Google Cloud Console](https://console.cloud.google.com/functions/list?authuser=0\&project=river-sky-386919).  Clicking on a function will bring you to the default [function dashboard](https://console.cloud.google.com/functions/details/southamerica-east1/fraud-detection-update-sample-sc?env=gen2\&authuser=0\&project=river-sky-386919\&pageState=\(%22functionsDetailsCharts%22:\(%22groupValue%22:%22P2D%22,%22customValue%22:null\)\)) that shows invocation details, memory and performance statistics and recent errors.
 
-<figure><img src="../.gitbook/assets/function_details.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/function_details.png" alt=""><figcaption></figcaption></figure>
 
 ### Deploying Functions for Testing and Production
 
