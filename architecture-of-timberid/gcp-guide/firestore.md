@@ -1,7 +1,0 @@
-# 📦 Firestore
-
-##
-
-
-
-## Security Rules

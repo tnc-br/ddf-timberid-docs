@@ -1,2 +1,0 @@
-# ⤵ Triggers and Functions
-

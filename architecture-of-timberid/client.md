@@ -1,4 +1,4 @@
-# ♒ Client
+# 🌐 Client
 
 ## FrontEnd Detail Design
 
@@ -47,8 +47,8 @@ It's very likely that the list for Species or Municipalities will need to be upd
 | Data Source    | Location                                                                                                                          | Original Source                                                                                                                                      |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Species        | [species\_list.tsx](https://github.com/tnc-br/ddf-sample-tracking/blob/main/sample\_tracking/app/species\_list.tsx)               | Originally obtained from imaflora. An outstanding item is to query this data dynamically from [Brazilian Flora](https://servicos.jbrj.gov.br/flora/) |
-| State List     | [states\_list.tsx](https://github.com/tnc-br/ddf-sample-tracking/blob/main/sample\_tracking/app/states\_list.tsx)                 |                                                                                                                                                      |
-| Municipalities | [municipalities\_list.tsx](https://github.com/tnc-br/ddf-sample-tracking/blob/main/sample\_tracking/app/municipalities\_list.tsx) |                                                                                                                                                      |
+| State List     | [states\_list.tsx](https://github.com/tnc-br/ddf-sample-tracking/blob/main/sample\_tracking/app/states\_list.tsx)                 | List of states in Brazil                                                                                                                             |
+| Municipalities | [municipalities\_list.tsx](https://github.com/tnc-br/ddf-sample-tracking/blob/main/sample\_tracking/app/municipalities\_list.tsx) | List of valid municipalities in Brazil                                                                                                               |
 
 ### Localization
 
