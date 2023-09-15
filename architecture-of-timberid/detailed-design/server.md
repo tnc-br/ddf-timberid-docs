@@ -54,6 +54,8 @@ There is extensive online help on setting up your [local cloud function debug en
 functions-framework --target=YOUR_FUNCTION_NAME
 ```
 
+If you have issues setting up the cloud function environment, you may also simply run the cloud function as its simply python code. The cloud functions in TimberID have alternate code paths for local authn which help in this regard.
+
 #### Cloud Function Production Debugging and Logging
 
 Extensive production and development environment information is found for each cloud function in the [Google Cloud Console](https://console.cloud.google.com/functions/list?authuser=0\&project=river-sky-386919).  Clicking on a function will bring you to the default [function dashboard](https://console.cloud.google.com/functions/details/southamerica-east1/fraud-detection-update-sample-sc?env=gen2\&authuser=0\&project=river-sky-386919\&pageState=\(%22functionsDetailsCharts%22:\(%22groupValue%22:%22P2D%22,%22customValue%22:null\)\)) that shows invocation details, memory and performance statistics and recent errors.
@@ -66,3 +68,5 @@ The github repository has github actions already configured to automatically dep
 
 * Merging code into the Main branch will automatically update the development environment: [development.timberid.org](https://development.timberid.org)
 * You must manually run a Github action to deploy code from the Main branch to the production url [timberid.org](https://timberid.org)
+
+_Walkthrough Example: Adding data from terraclimate into the results page via a function._
