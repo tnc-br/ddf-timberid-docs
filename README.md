@@ -1,7 +1,7 @@
 ---
 description: https://timberid.gitbook.io/timberid/
-cover: .gitbook/assets/Ativo 9.png
-coverY: -2
+cover: .gitbook/assets/Prancheta 4 cópia 3.png
+coverY: 0
 layout:
   cover:
     visible: true
@@ -20,7 +20,9 @@ layout:
 
 # 🌳 Welcome to TimberID
 
-
+## TimberID
 
 TimberID is a web application that helps researchers share information, manage timber reference samples and see rich analysis on timber samples.
+
+
 

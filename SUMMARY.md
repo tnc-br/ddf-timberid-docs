@@ -4,7 +4,7 @@
 
 ## Overview
 
-* [🌳 What is TimberID](overview/what-is-timberid.md)
+* [🌳 Background](overview/background.md)
 * [✨ Mission and Goals](overview/mission-and-goals.md)
 
 ## User Guide
