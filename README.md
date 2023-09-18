@@ -1,6 +1,11 @@
 ---
 description: https://timberid.gitbook.io/timberid/
+cover: .gitbook/assets/Ativo 9.png
+coverY: -2
 layout:
+  cover:
+    visible: true
+    size: hero
   title:
     visible: false
   description:
@@ -14,6 +19,8 @@ layout:
 ---
 
 # Welcome to TimberID
+
+
 
 <figure><img src=".gitbook/assets/Ativo 9.png" alt=""><figcaption></figcaption></figure>
 
