@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🌳 Welcome to TimberID](README.md)
+* [Welcome to TimberID](README.md)
 
 ## Overview
 
