@@ -81,6 +81,15 @@ You should first install the [firebase CLI](https://firebase.google.com/docs/hos
 
 The github repository has github actions already configured to generate live previews URLS for all PRs.  You can find out more about how these actions were configured [here](https://firebase.google.com/docs/hosting/github-integration#set-up).
 
-* Merging code into the Main branch will automatically update the development environment: [development.timberid.org](https://development.timberid.org)
-* You must manually run a Github action to deploy code from the Main branch to the production url [timberid.org](https://timberid.org)
+* Merging code into the Main branch will automatically update the development environment: [test.timberid.org](https://test.timberid.org).
+
+{% hint style="info" %}
+Before merging a PR to Main, you should have unit tests and manually test with the generated hosted url github actions created for you.
+{% endhint %}
+
+* Merging code into the PRD branch will automatically update the production environment.&#x20;
+
+{% hint style="info" %}
+Before merging code from Main into the PRD branch, you should run through the [manual test procedures](../test-procedure-for-production-release.md) on test.timberid.org, which should have latest source from the Main branch.
+{% endhint %}
 

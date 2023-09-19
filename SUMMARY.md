@@ -4,8 +4,8 @@
 
 ## Overview
 
-* [🌳 Background](overview/background.md)
 * [✨ Mission and Goals](overview/mission-and-goals.md)
+* [🌳 Background](overview/background.md)
 
 ## User Guide
 

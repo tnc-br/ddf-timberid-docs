@@ -2,11 +2,11 @@
 
 ## **Components**
 
-TimberID has several high level components:
+TimberID has three high level components:
 
-1. A UI is used to track and store both reference and untrusted samples (The Timber ID frontend)
-2. An ML model uses reference samples to create a ground truth isoscape (ML Isoscape Model)
-3. A backend processes analytics against samples to perform origin verification that is reported through the UI (Insights and Analytics)
+1. A Web UI is used to track and store both reference and untrusted samples (Isotope Tracking frontend)
+2. A Variational Inference tensorflow ML model that uses timber reference samples to create a ground truth isoscape (ML Isoscape Model)
+3. A backend analytics engine that runs on seized timber to perform origin verification and other analysis (Insights and Analytics)
 
 <div data-full-width="false">
 

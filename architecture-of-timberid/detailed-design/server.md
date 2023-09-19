@@ -66,7 +66,16 @@ Extensive production and development environment information is found for each c
 
 The github repository has github actions already configured to automatically deploy updated code for cloud functions when a PR is merged into the main branch.  You see more details about this deployment in the [yml file in github](https://github.com/tnc-br/ddf-insights-analytics/blob/main/.github/workflows/main.yml).
 
-* Merging code into the Main branch will automatically update the development environment: [development.timberid.org](https://development.timberid.org)
-* You must manually run a Github action to deploy code from the Main branch to the production url [timberid.org](https://timberid.org)
+* Merging code into the Main branch will automatically update the backend for development environment: [test.timberid.org](https://test.timberid.org).
+
+{% hint style="info" %}
+Before merging a PR to Main, you should have unit tests and manually test the function by running it directly or with the google cloud functions test harness.
+{% endhint %}
+
+* Merging code into the PRD branch will automatically update the production environment.&#x20;
+
+{% hint style="info" %}
+Before merging code from Main into the PRD branch, you should run through the [manual test procedures](../test-procedure-for-production-release.md) on test.timberid.org, which should have latest source from the Main branch.
+{% endhint %}
 
 _Walkthrough Example: Adding data from terraclimate into the results page via a function._

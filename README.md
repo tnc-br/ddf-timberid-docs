@@ -1,6 +1,6 @@
 ---
 description: https://timberid.gitbook.io/timberid/
-cover: .gitbook/assets/Prancheta 4 cópia 3.png
+cover: .gitbook/assets/ddf-logo-trimmed-green.png
 coverY: 0
 layout:
   cover:
