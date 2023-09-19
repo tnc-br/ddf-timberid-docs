@@ -12,12 +12,12 @@
 * [🔰 Registering](user-guide/registering.md)
 * [🔎 Analyzing a Sample](user-guide/analyzing-a-sample.md)
 * [🪵 Adding+ Importing Samples](user-guide/adding+-importing-samples.md)
+* [📤 Exporting](user-guide/exporting.md)
 * [🌎 Earth Engine API](user-guide/earth-engine-api.md)
 * [⚡ Administration Guide](user-guide/administration-guide/README.md)
   * [🧑🤝🧑 Creating Orgs](user-guide/administration-guide/creating-orgs.md)
   * [🚸 Managing Users](user-guide/administration-guide/managing-users.md)
 * [📗 Glossary](user-guide/glossary.md)
-* [📤 Exporting](user-guide/exporting.md)
 
 ## Architecture of TimberID
 
@@ -31,13 +31,9 @@
     * [Ingestion](architecture-of-timberid/detailed-design/variational-inference-colabs/ingestion.md)
     * [Isoscape Generation](architecture-of-timberid/detailed-design/variational-inference-colabs/isoscape-generation.md)
     * [Validation of Isoscapes](architecture-of-timberid/detailed-design/variational-inference-colabs/validation-of-isoscapes.md)
-  * [🦋 Ux Assets](architecture-of-timberid/detailed-design/ux-assets.md)
 * [🌩 GCP Guide](architecture-of-timberid/gcp-guide.md)
 * [🚀 Test Procedure for Production Release](architecture-of-timberid/test-procedure-for-production-release.md)
 
 ## Internal
 
-* [📈 Success Benchmarks](internal/success-benchmarks.md)
-* [📃 Prioritized Feature Backlog](internal/prioritized-feature-backlog.md)
-* [🛣 2023-2024 Roadmap](internal/2023-2024-roadmap.md)
 * [🔐 Admin Accounts](internal/admin-accounts.md)
