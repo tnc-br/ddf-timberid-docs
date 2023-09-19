@@ -20,7 +20,7 @@ layout:
 
 # 🌳 Welcome to TimberID
 
-**TimberID** is a web application that helps researchers manage, analyze and share information on timber samples collected from the Brazilian rainforest.
+**TimberID** is a web application, tools and API that help researchers manage, analyze and share information on timber samples collected from the Brazilian rainforest.
 
 The analysis TimberID provides helps to understand the true nature of seized timber, such as the actual location it was harvested. This information is crucial to preventing deforestation and degradation of protected areas of the Amazon.
 

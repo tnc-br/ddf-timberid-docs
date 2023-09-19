@@ -1,5 +1,9 @@
 # ✨ Mission and Goals
 
+## <mark style="color:blue;">Increase timber supply chain transparency</mark> in the <mark style="color:green;">Brazilian Amazon</mark> using <mark style="color:yellow;">data-driven insights</mark> to <mark style="color:red;">support rain-forest preservation</mark>
+
+
+
 ## **Components**
 
 TimberID has three high level components:
