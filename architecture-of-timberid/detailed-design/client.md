@@ -10,7 +10,7 @@ The Front End is open sourced at [the tnc-br github organization](https://github
 
 The client contains the following functionality
 
-<img src="../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
 ### Login, Signup and Password Reset
 

@@ -1,32 +1,16 @@
 # 🛠 High Level Design
 
-## **Components**
+## **Architecture**
 
-TimberID has three high level components:
-
-1. A Web UI is used to track and store both reference and untrusted samples (Isotope Tracking frontend)
-2. A Variational Inference tensorflow ML model that uses timber reference samples to create a ground truth isoscape (ML Isoscape Model)
-3. A backend analytics engine that runs on seized timber to perform origin verification and other analysis (Insights and Analytics)
-
-<div data-full-width="false">
-
-<figure><img src="../.gitbook/assets/arch.png" alt=""><figcaption><p>Component diagram for TimberID</p></figcaption></figure>
-
-</div>
-
-Unlike a traditional three tier architecture, a simplified Backend-as-a-Service architecture is leveraged that encodes security rules in a declarative manner directly on the database. This approach reduces amount of code by eliminating the traditional middle tier layer that performs authorization and domain specific logic.
+Unlike a traditional three tier architecture, TimberID uses a simplified Backend-as-a-Service architecture whose security rules are expressed in a declarative manner directly on the database. This approach reduces amount of code by eliminating the traditional middle tier layer that performs authorization and domain specific logic.
 
 This  allows a clean separation between front and back end where the front end solely interacts directly with the Firestore database. Most operations can then be made securely, directly from the front end relying on the Firstore Security Rules to safeguard data.
-
-***
-
-## **Architecture**
 
 The new model of Backend-as-a-Service does not completely get rid of back end code. In cases where complex offline, asynchronous code or sensitive logic (such as fraud verification) must be run, the typical approach is to connect cloud functions directly to the shared database. Both sides (front end and back end) then listen on state changes to the database, each making changes based on user input (in the case of the front end) or the back end (in the case of complex calculations completing).
 
 The below high level diagram summarizes our approach.
 
-<img src="../.gitbook/assets/file.excalidraw (1) (1).svg" alt="" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
 
 The front end reads and writes directly to the Sample Database. Backend processes are started from Cloud Triggers which do a variety of tasks, from backend computation of origin verification to exporting all data as Earth Engine features so they may be joined with other geospatial data for analysis.
 
