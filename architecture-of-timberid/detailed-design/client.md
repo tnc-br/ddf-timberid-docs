@@ -40,6 +40,58 @@ Users must choose an Organization when they sign in, which determines what data 
 
 Security Rules are described in depth in the [Server](server.md) section.
 
+
+
+### Confirming User Permissions&#x20;
+
+User data and permissions are stored in the "users" collection in Firestore. Each user has their own document where the document ID is the user's Firebase auth user ID making it easy to know which document to fetch when checking which permissions a user has. The following data is stored for each user:&#x20;
+
+```json
+{
+ date_added: string
+ email: string
+ name: string // First and last name 
+ org: string // The org ID number 
+ org_name: string // The org name
+ role: string // Can only be either "member", "admin" or "site_admin"
+}
+```
+
+We know what a user's permissions are based on the role they have. A member can only create/view/edite samples in their organization. An admin is an org admin and has full control of all aspects of their organization including approving new members, promoting other members to admin status, and removing members from their organization. A site\_admin has full control of all aspects of the site including approving any member request, removing any member from any org, viewing any sample created on the application, and promoting members or admins to site\_admin status.&#x20;
+
+These roles must be checked when a user attempts to access a page that is meant only for specific user roles. For example the following snippet shows how to check if a user is an admin or site\_admin and forwards them away from the page if they aren't.&#x20;
+
+```typescript
+onAuthStateChanged(auth, (user) => {
+    if (!user) {
+        router.push('/login');
+    } else {
+        const userDocRef = doc(db, "users", user.uid);
+        getDoc(userDocRef).then((docRef) => {
+            if (docRef.exists()) {
+                const docData = docRef.data();
+                    if (docData.role !== 'admin' && docData.role !== 'site_admin') {
+                        router.push('/samples');
+                    }
+                    setUserData(docRef.data() as UserData);
+                }
+            }).catch((error) => {
+                console.log(error)
+            });
+        }
+    });
+```
+
+Even if a user falls through this test without the correct role, the Firestore security rules will make sure they don't see any privileged information however it is best if they don't have access to the pages in the first place. Only an admin has permissions to update the data in a user's user document.&#x20;
+
+### New user flow
+
+When a new user attempts to join the application their data is added as a new document to the "new\_users" collection with the new users firebase auth user ID as the document ID.&#x20;
+
+When an org admin goes to the "Sign up requests" page, the "new\_users" collection is searched for users attempting to join the same organization as the admin and are shown to the admin to be approved/rejected. If a user is approved, a new entry is made for them in the "users" collection with the data shown above.&#x20;
+
+If a new user attempts to create a new organization when they sign up, their data is added to the "new\_orgs" document in the "new\_users" collection. These requests are only shown to the site\_admin to be approved/rejected.&#x20;
+
 ### Lists (Species, Municipalities)
 
 It's very likely that the list for Species or Municipalities will need to be updated in the future.  These can be found below.
