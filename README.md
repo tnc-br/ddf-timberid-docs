@@ -22,13 +22,13 @@ layout:
 
 <figure><img src=".gitbook/assets/timberIDsshot.png" alt=""><figcaption></figcaption></figure>
 
-[**TimberID**](https://timberid.org) is a web application plus API used by researchers, auditors and enforcement professionals to manage, analyze and share information on timber samples collected from the Brazilian rainforest.
+[**TimberID**](https://timberid.org) is a web application and API used by researchers, auditors and enforcement professionals to manage, analyze and share information on timber samples collected from the Brazilian rainforest.
 
-The analysis TimberID provides helps to understand the true nature of seized timber, such as the actual location it was harvested. This information is crucial to preventing deforestation and degradation of protected areas of the Amazon. This protects a vital resource for Brazil and helps safeguard the environment.
+TimberID analysis helps understand the true nature of seized timber, such as the actual location it was harvested. This information is crucial to preventing deforestation and degradation of protected areas of the Amazon. This protects a vital resource for Brazil and helps safeguard the environment.
 
-The API allows researchers to easily access reference information and analysis through Earth Engine. TimberID uses this API itself to run machine learning on reference data to build timber based isoscapes (isotopic maps) of the Brazilian rain-forest.
+The API allows researchers to easily access reference information and analysis through Earth Engine. TimberID uses its own API to obtains inputs for machine learning that build timber based [isoscapes](overview/background.md) (isotopic maps) of the Brazilian rain-forest.
 
-Finally, TimberID introduces innovative approach to building isoscapes (isotopic maps) of the amazon using a [machine learning variational model](architecture-of-timberid/detailed-design/variational-inference-colabs/isoscape-generation.md).
+Finally, TimberID introduces an innovative approach to building isoscapes (isotopic maps) of the amazon using a [machine learning variational model](architecture-of-timberid/detailed-design/variational-inference-colabs/isoscape-generation.md).
 
 ### Who can use TimberID?
 
