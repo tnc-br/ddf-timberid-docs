@@ -145,3 +145,13 @@ Before merging a PR to Main, you should have unit tests and manually test with t
 Before merging code from Main into the PRD branch, you should run through the [manual test procedures](../test-procedure-for-production-release.md) on test.timberid.org, which should have latest source from the Main branch.
 {% endhint %}
 
+#### Domain Name Management and Custom Domain Names
+
+Currently, TimberID.org has two domains
+
+| Domain Name       | Management Url                                                                                                                                           | Description                                                                               |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| TimerID.org       | [https://domains.google.com/registrar/timberid.org/dns?authuser=0\&hl=en-US](https://domains.google.com/registrar/timberid.org/dns?authuser=0\&hl=en-US) | Production website automatically sync'd to the PRD branch                                 |
+| Test.TimberID.org | [https://domains.google.com/registrar/timberid.org/dns?authuser=0\&hl=en-US](https://domains.google.com/registrar/timberid.org/dns?authuser=0\&hl=en-US) | Test branch with separate database and functions, automatically sync'd to the main branch |
+|                   |                                                                                                                                                          |                                                                                           |
+
