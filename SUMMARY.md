@@ -11,7 +11,8 @@
 
 * [🔰 Registering](user-guide/registering.md)
 * [🔎 Analyzing a Sample](user-guide/analyzing-a-sample.md)
-* [🪵 Adding+ Importing Samples](user-guide/adding+-importing-samples.md)
+* [🪵 Adding+ Importing Samples](user-guide/adding+-importing-samples/README.md)
+  * [⁉ Import Errors](user-guide/adding+-importing-samples/import-errors.md)
 * [📤 Exporting](user-guide/exporting.md)
 * [🌎 Earth Engine API](user-guide/earth-engine-api.md)
 * [⚡ Administration Guide](user-guide/administration-guide/README.md)
