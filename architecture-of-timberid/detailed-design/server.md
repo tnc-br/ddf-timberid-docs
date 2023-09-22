@@ -79,3 +79,16 @@ Before merging code from Main into the PRD branch, you should run through the [m
 {% endhint %}
 
 _Walkthrough Example: Adding data from terraclimate into the results page via a function._
+
+
+
+### Creating first user
+
+If for some reason the database and user group is deleted or reset, to be able to start adding new users and organizations again, a site admin must be manually entered into the database with the following steps:&#x20;
+
+1. Go through the normal sign up process at timberid.org
+2. Find the new user's User UID in the Firebase authentication tab
+3. Create a new document in the "users" collection with the ID equal to the users UID
+4. Enter a value for "name" and "org", and set the value of "role" to "site\_admin". The values for name and org can be completely made up&#x20;
+5. This user can now log into TimberID using the account they created and have the ability to approve new organization and member requests
+
