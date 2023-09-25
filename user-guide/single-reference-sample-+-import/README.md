@@ -8,7 +8,7 @@ TimberID uses Reference Timber Samples to train a Variational Inference ML model
 
 
 
-How do I enter a Reference Sample?
+## How do I enter a Reference Sample?
 
 There are two options for adding sample data.
 
@@ -41,4 +41,32 @@ Click on the Next button and the final page allows you to review what you have e
 <figure><img src="../../.gitbook/assets/TimberID_createSample.png" alt=""><figcaption></figcaption></figure>
 
 ### Importing Sample from a CSV file
+
+TimberID also allows you to import many reference samples at once through a csv file. The csv file must:
+
+* Use commas to separate values
+* The first row must be column names
+* The column names must all be lower case
+
+You may include any columns you wish and while TimberId will not display all of them in the  UI, they will be exported to Earth Engine as features at the latitude/longitude indicated.
+
+#### Required Import Fields
+
+Importing does require the following columns with respective validation rules.
+
+<table><thead><tr><th width="168">Field</th><th width="168">Validation</th><th width="100">Required</th><th>Description</th></tr></thead><tbody><tr><td>code</td><td>none</td><td>Y</td><td>The unique id for a sample that has potentially multiple rows (one for each measurement)</td></tr><tr><td>trusted</td><td>['trusted', 'unknown', 'untrusted']</td><td>Y</td><td>'trusted' samples indicate a reference sample. <br>'untrusted' samples are those intended to run under origin verification. <br>'unknown' are those that do not have a precise lat/lon</td></tr><tr><td>lat</td><td>>=-90, &#x3C;=90</td><td>Y</td><td></td></tr><tr><td>lon</td><td>>=-180, &#x3C;=180</td><td>Y</td><td></td></tr><tr><td>d18O_cel</td><td>>=20, &#x3C;=32</td><td>N</td><td></td></tr><tr><td>d18O_wood</td><td>>=20, &#x3C;=32</td><td>N</td><td></td></tr><tr><td>d15N_wood</td><td>>=-5, &#x3C;=15</td><td>N</td><td></td></tr><tr><td>n_wood</td><td>>=0, &#x3C;=1</td><td>N</td><td></td></tr><tr><td>d13C_wood</td><td>>=-38, &#x3C;=20</td><td>N</td><td></td></tr><tr><td>c_wood</td><td>>=40, &#x3C;=60</td><td>N</td><td></td></tr><tr><td>d13C_cel</td><td>>-35, &#x3C;=-20</td><td>N</td><td></td></tr><tr><td>c_cel</td><td>>=40, &#x3C;=60</td><td>N</td><td></td></tr></tbody></table>
+
+#### Validation Errors
+
+When you import values, if there are errors in your CSV or validation errors, TimberID will create a mirror copy of your input csv along with a new column called 'error' which is filled out for each row that has a validation error.
+
+You can see the full list of potential import errors along with how to fix them, [here](import-errors.md).
+
+#### Example CSV File
+
+You may use the linked file as an example to create a valid import file.
+
+{% file src="../../.gitbook/assets/timberid_example.csv" %}
+Import Example
+{% endfile %}
 
