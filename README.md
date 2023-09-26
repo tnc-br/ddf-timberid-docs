@@ -1,5 +1,4 @@
 ---
-description: https://timberid.gitbook.io/timberid/
 cover: .gitbook/assets/ddf-logo-trimmed-green.png
 coverY: 0
 ---

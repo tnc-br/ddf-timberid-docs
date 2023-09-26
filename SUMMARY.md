@@ -10,7 +10,7 @@
 
 * [🔰 Registering](user-guide/registering.md)
 * [🪵 Single Reference Sample + Import](user-guide/single-reference-sample-+-import/README.md)
-  * [⁉ Import Errors](user-guide/single-reference-sample-+-import/import-errors.md)
+  * [⁉ Import Errors](user-guide/adding+-importing-samples/import-errors.md)
 * [🔎 Origin Verification](user-guide/origin-verification.md)
 * [📤 Exporting](user-guide/exporting.md)
 * [🌎 Earth Engine API](user-guide/earth-engine-api.md)
@@ -32,7 +32,7 @@
     * [Ingestion](architecture-of-timberid/detailed-design/variational-inference-colabs/ingestion.md)
     * [Isoscape Generation](architecture-of-timberid/detailed-design/variational-inference-colabs/isoscape-generation.md)
     * [Validation of Isoscapes](architecture-of-timberid/detailed-design/variational-inference-colabs/validation-of-isoscapes.md)
-* [🌩 GCP Guide](architecture-of-timberid/gcp-guide/README.md)
+* [🌩 GCP Guide](architecture-of-timberid/gcp-guide.md)
   * [📈 Analytics](architecture-of-timberid/gcp-guide/analytics.md)
   * [💰 Budget Alerts](architecture-of-timberid/gcp-guide/budget-alerts.md)
 * [🚀 Test Procedure for Production Release](architecture-of-timberid/test-procedure-for-production-release.md)
