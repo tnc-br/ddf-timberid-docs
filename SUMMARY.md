@@ -37,4 +37,4 @@
 
 ## Internal
 
-* [🔐 Admin Accounts](internal/admin-accounts.md)
+* [🔐 Internal Information](internal/internal-information.md)

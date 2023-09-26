@@ -14,7 +14,7 @@ Two earth engine based cloud functions export the reference sample data in a per
 
 #### The Earth Engine Code Editor
 
-These assets can be seen by directly loading the [Earth Engine Code editor](https://code.earthengine.google.com/). Note that you must have developer admin permissions (see the [Admin page](../../internal/admin-accounts.md) for details) to see the Assets in the asset collection. Without this permission, you can still write script applications and read assets, but not list them.
+These assets can be seen by directly loading the [Earth Engine Code editor](https://code.earthengine.google.com/). Note that you must have developer admin permissions (see the [Admin page](../../internal/internal-information.md) for details) to see the Assets in the asset collection. Without this permission, you can still write script applications and read assets, but not list them.
 
 <figure><img src="../../.gitbook/assets/ee_code_editor.png" alt=""><figcaption></figcaption></figure>
 

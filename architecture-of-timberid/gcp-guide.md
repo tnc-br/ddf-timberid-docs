@@ -43,7 +43,7 @@ The Firebase console is a powerful tool that can help you manage, develop, and d
 
 ### Access and Admin Permissions
 
-See the [Admin Accounts Page](../internal/admin-accounts.md).
+See the [Admin Accounts Page](../internal/internal-information.md).
 
 ## Firebase Learning Resources
 
