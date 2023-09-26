@@ -18,6 +18,7 @@
   * [🧑🤝🧑 Creating Orgs](user-guide/administration-guide/creating-orgs.md)
   * [🚸 Managing Users](user-guide/administration-guide/managing-users.md)
 * [📗 Glossary](user-guide/glossary.md)
+* [🐛 Report an Issue](user-guide/report-an-issue.md)
 
 ## Architecture of TimberID
 
