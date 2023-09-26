@@ -2,20 +2,6 @@
 description: https://timberid.gitbook.io/timberid/
 cover: .gitbook/assets/ddf-logo-trimmed-green.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # 🌳 Welcome to TimberID
