@@ -2,7 +2,7 @@
 
 TimberID uses Firebase Analytics which shows:
 
-* Daily Active Users
+* Daily Active Users (30day, 7day, 1day unique visitors over that timeframe)
 * Average Engagement Time
 * Engaged Sessions per User
 * Detailed event counts for page views, first sessions etc.
