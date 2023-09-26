@@ -15,7 +15,7 @@
 * [📤 Exporting](user-guide/exporting.md)
 * [🌎 Earth Engine API](user-guide/earth-engine-api.md)
 * [⚡ Administration Guide](user-guide/administration-guide/README.md)
-  * [🧑🤝🧑 Creating Orgs](user-guide/administration-guide/creating-orgs.md)
+  * [🧑🤝🧑 Creating Organizations](user-guide/administration-guide/creating-organizations.md)
   * [🚸 Managing Users](user-guide/administration-guide/managing-users.md)
 * [📗 Glossary](user-guide/glossary.md)
 * [🐛 Report an Issue](user-guide/report-an-issue.md)
@@ -34,6 +34,7 @@
     * [Validation of Isoscapes](architecture-of-timberid/detailed-design/variational-inference-colabs/validation-of-isoscapes.md)
 * [🌩 GCP Guide](architecture-of-timberid/gcp-guide/README.md)
   * [📈 Analytics](architecture-of-timberid/gcp-guide/analytics.md)
+  * [💰 Budget Alerts](architecture-of-timberid/gcp-guide/budget-alerts.md)
 * [🚀 Test Procedure for Production Release](architecture-of-timberid/test-procedure-for-production-release.md)
 
 ## Internal
