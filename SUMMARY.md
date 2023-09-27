@@ -36,6 +36,7 @@
 * [🌩 GCP Guide](architecture-of-timberid/gcp-guide/README.md)
   * [📈 Analytics](architecture-of-timberid/gcp-guide/analytics.md)
   * [💰 Budget Alerts](architecture-of-timberid/gcp-guide/budget-alerts.md)
+  * [⚠ Backups and Disaster Recovery](architecture-of-timberid/gcp-guide/backups-and-disaster-recovery.md)
 * [🚀 Test Procedure for Production Release](architecture-of-timberid/test-procedure-for-production-release.md)
 
 ## Internal
