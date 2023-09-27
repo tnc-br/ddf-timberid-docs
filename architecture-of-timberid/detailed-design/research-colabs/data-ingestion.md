@@ -20,6 +20,13 @@ Find the Colab at: [https://colab.research.google.com/github/tnc-br/ddf-isoscape
 
 In general, the default options in data\_ingestion.ipynb are what most users will want. Most users will not need to change the vast majority of settings. However, advanced users should note the following:
 
+*   **Known Issue:** Mismatched Projections Lead to Poor-Quality Isoscapes\
+    Currently, we have a known issue where the data ingestion pipeline uses GeoTIFFs with mismatched projections to instantiate our tabular dataset:\
+
+
+    <figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Visual Depiction of the issue</p></figcaption></figure>
+
+    Until this is fixed, generated isoscapes will not be of the quality that they could be.
 * "GOOGLE DRIVE" is currently the only working sample source, so users should strongly prefer that. The "TIMBERID" source is still in the testing stage. When it is fully operational, this will automatically import trusted samples from TimberID as a dataset.
 * "ORG\_NAME" for the "TIMBERID" source should correspond to the permissions of the user-- Google users should select "google" and USP users should select "USP"
 * Pay attention to errors and warnings in the feature selection stage-- these indicate that any downstream models may not train with all of the expected features, which can result in low-quality isoscapes
