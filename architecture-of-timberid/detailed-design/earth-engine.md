@@ -8,7 +8,7 @@ However it is more turnkey due to automatic management of Earth Engine assets an
 
 ### How it works
 
-<img src="../../.gitbook/assets/file.excalidraw.svg" alt="The TimberID  front end manages information auto exported to Earth Engine" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (5).svg" alt="The TimberID  front end manages information auto exported to Earth Engine" class="gitbook-drawing">
 
 Two earth engine based cloud functions export the reference sample data in a per-organization layout and the user information that automatically grants access either directly in the earth engine code editor or through the Ddf EE API.
 

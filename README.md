@@ -13,11 +13,11 @@ TimberID analysis helps understand the true nature of seized timber, such as the
 
 The API allows researchers to easily access reference information and analysis through Earth Engine. TimberID uses its own API to obtains inputs for machine learning that build timber based [isoscapes](overview/background.md) (isotopic maps) of the Brazilian rain-forest.
 
-Finally, TimberID introduces an innovative approach to building isoscapes (isotopic maps) of the amazon using a [machine learning variational model](architecture-of-timberid/detailed-design/variational-inference-colabs/isoscape-generation.md).
+Finally, TimberID introduces an innovative approach to building isoscapes (isotopic maps) of the amazon using a [machine learning variational model](architecture-of-timberid/detailed-design/research-colabs/isoscape-generation.md).
 
 ### Who can use TimberID?
 
-<img src=".gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
+<img src=".gitbook/assets/file.excalidraw (4) (1).svg" alt="" class="gitbook-drawing">
 
 TimberID is _currently_ optimized for researchers, auditors and enforcement professionals. Users register in TimberID to be part of a new or existing _organization_. In TimberID, all timber data is private within an organization, and is not visible to other organizations.&#x20;
 

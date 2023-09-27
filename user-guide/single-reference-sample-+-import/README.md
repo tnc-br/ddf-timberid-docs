@@ -60,7 +60,7 @@ Importing does require the following columns with respective validation rules.
 
 When you import values, if there are errors in your CSV or validation errors, TimberID will create a mirror copy of your input csv along with a new column called 'error' which is filled out for each row that has a validation error.
 
-You can see the full list of potential import errors along with how to fix them, [here](../adding+-importing-samples/import-errors.md).
+You can see the full list of potential import errors along with how to fix them, [here](import-errors.md).
 
 #### Example CSV File
 

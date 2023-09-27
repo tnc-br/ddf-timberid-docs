@@ -25,7 +25,7 @@ Since isotopes are incorporated into organisms' atoms from external sources of t
 
 Based on these isotope maps (isoscapes), we can verify the origin of harvested timber by running a sample of it through the same mass spectrometer analysis (SIRA).&#x20;
 
-* With the results of SIRA, and the claimed sample origin (latitude and longitude) provided by the supplier (legally required in Brazil), we can compare it with the 'map' (isoscapes) and verify if the claimed origin is consistent or not. We do this with a t test which is explained in detail in the [Validation Section](../architecture-of-timberid/detailed-design/variational-inference-colabs/validation-of-isoscapes.md).
+* With the results of SIRA, and the claimed sample origin (latitude and longitude) provided by the supplier (legally required in Brazil), we can compare it with the 'map' (isoscapes) and verify if the claimed origin is consistent or not. We do this with a t test which is explained in detail in the [Validation Section](../architecture-of-timberid/detailed-design/research-colabs/validation-of-isoscapes.md).
 * The origin verification process enables market actors (e.g. enforcement, Federal Police) to verify if timber was harvested in a region where the supplier has a permit to do so, opening up new opportunities to combat illegal deforestation of the Amazon.
 
 #### Other Work

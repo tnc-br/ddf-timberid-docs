@@ -10,7 +10,7 @@ The new model of Backend-as-a-Service does not completely get rid of back end co
 
 The below high level diagram summarizes our approach.
 
-<img src="../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
 
 The front end reads and writes directly to the Sample Database. Backend processes are started from Cloud Triggers which do a variety of tasks, from backend computation of origin verification to exporting all data as Earth Engine features so they may be joined with other geospatial data for analysis.
 

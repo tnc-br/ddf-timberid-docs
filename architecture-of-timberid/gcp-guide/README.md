@@ -10,7 +10,7 @@ All Google Cloud Assets are stored in a hierarchical structure with the timberid
 
 Below is a diagram of the hierarchy you will also find in the [resource manager in Google Cloud](https://console.cloud.google.com/cloud-resource-manager).
 
-<img src="../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
 
 
@@ -20,7 +20,7 @@ The Firebase Console is the best tool to view and manage the TimberID components
 
 These products are fully managed meaning users do not need to manually scale or manage compute & storage as you would compared to (for example) a postgres server set up in Google Compute.
 
-<figure><img src="../.gitbook/assets/firebasesshot.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/firebasesshot.png" alt=""><figcaption></figcaption></figure>
 
 The [test environment console](https://console.firebase.google.com/project/river-sky-386919/overview) and [production environment console](https://console.firebase.google.com/project/timberid-prd/overview) allow you to:
 
@@ -43,7 +43,7 @@ The Firebase console is a powerful tool that can help you manage, develop, and d
 
 ### Access and Admin Permissions
 
-See the [Admin Accounts Page](../internal/internal-information.md).
+See the [Admin Accounts Page](../../internal/internal-information.md).
 
 ## Firebase Learning Resources
 
