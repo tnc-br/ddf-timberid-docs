@@ -17,7 +17,7 @@ Finally, TimberID introduces an innovative approach to building isoscapes (isoto
 
 ### Who can use TimberID?
 
-<img src=".gitbook/assets/file.excalidraw (4) (1).svg" alt="" class="gitbook-drawing">
+<img src=".gitbook/assets/file.excalidraw (6).svg" alt="" class="gitbook-drawing">
 
 TimberID is _currently_ optimized for researchers, auditors and enforcement professionals. Users register in TimberID to be part of a new or existing _organization_. All inputted sample data is private within an organization, and is not visible to other organizations.&#x20;
 
