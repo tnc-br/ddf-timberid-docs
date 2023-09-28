@@ -89,7 +89,9 @@ description: >-
 
 9. Click in the profile icon and then in Log out.
 
-### Lab user activities
+## Lab user activities
+
+### Single reference sample
 
 1. Access TimberID [timberid.org](http://timberid.org) and login with maria.antonieta@versalhes.com as user and  123123 for password.
 2. Click in Add sample -> Single reference sample
@@ -108,8 +110,56 @@ description: >-
 
 <figure><img src="../.gitbook/assets/TimberID_createSample.png" alt=""><figcaption></figcaption></figure>
 
-\
-\
+### Import samples
 
+1. TimberID has the functionality to import samples in csv format. Please use this file as an example to import.
 
-\
+{% file src="../.gitbook/assets/timberid_import_sample_example.csv" %}
+
+2. Under "Add Sample", choose "Import Samples"
+
+<figure><img src="../.gitbook/assets/TimberID-import_sample.png" alt=""><figcaption></figcaption></figure>
+
+3. A pop-up screen will appear asking for the csv file. Choose the import file.
+4. The message "Successfully imported file" should appear
+
+<figure><img src="../.gitbook/assets/TimberID-success.png" alt=""><figcaption></figcaption></figure>
+
+### Edit Samples
+
+1. Under Completed samples, type the code mad11 in search button in order to find the imported samples
+
+<figure><img src="../.gitbook/assets/TimberID_imported_samples.png" alt=""><figcaption></figcaption></figure>
+
+2. Click in Edit button on mad1111 sample to edit some details.
+
+<figure><img src="../.gitbook/assets/TimberID-edit.png" alt=""><figcaption></figcaption></figure>
+
+3. Edit "Sample name"changing it to TESTE and then click in "Update sample" button.
+
+<figure><img src="../.gitbook/assets/TimberID-edit_example.png" alt=""><figcaption></figcaption></figure>
+
+4. Sample details must be shown.
+
+### Delete samples
+
+1. Under Completed samples, type the code mad111 in search button in order to find the imported samples
+
+<figure><img src="../.gitbook/assets/TimberID_imported_samples.png" alt=""><figcaption></figcaption></figure>
+
+2. Click the delete button in order to delete sample **mad1111.**
+
+<figure><img src="../.gitbook/assets/TimberID-delete.png" alt=""><figcaption></figcaption></figure>
+
+### Export sample
+
+1. Under Completed samples, type the code mad1112 in search button&#x20;
+
+<figure><img src="../.gitbook/assets/TimberID-export1.png" alt=""><figcaption></figcaption></figure>
+
+2. Select the sample mad1112 and then click the button Export selected
+
+<figure><img src="../.gitbook/assets/TimberID_export.png" alt=""><figcaption></figcaption></figure>
+
+3. Open the downloaded file and check the information exported.
+4. Delete the sample mad1112.
