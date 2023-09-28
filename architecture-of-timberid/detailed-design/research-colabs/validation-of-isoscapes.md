@@ -12,5 +12,5 @@ After validation, isoscape files are stamped with validation results and then wr
 
 ## Notes
 
-* **The current default isoscapes for the validation pipeline are not our best model.** We are still trying to locate our best model as its information was not fully written to our internal ddf-model-tracker document and it appears that it was never fully checked into the `main` branch of our Git repository.
+* **The current default isoscapes for the validation pipeline are not our best model.** We will update this documentation when we have fully validated results.
 * Do not use the "Upload to Google Earth Engine" section of this notebook-- it is deprecated and not guaranteed to work properly. Instead, prefer to upload isoscapes to TimberID from the interactive Colab referenced in [Earth Engine API](../../../user-guide/earth-engine-api.md).
