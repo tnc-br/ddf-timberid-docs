@@ -27,6 +27,7 @@
 * [🏯 Detailed Design](architecture-of-timberid/detailed-design/README.md)
   * [🌐 Client](architecture-of-timberid/detailed-design/client.md)
   * [🖥 Server](architecture-of-timberid/detailed-design/server.md)
+  * [🗺 External integrations and maps](architecture-of-timberid/detailed-design/external-integrations-and-maps.md)
   * [🌎 Earth Engine](architecture-of-timberid/detailed-design/earth-engine.md)
   * [👩🔬 Research Colabs](architecture-of-timberid/detailed-design/research-colabs/README.md)
     * [Data Ingestion](architecture-of-timberid/detailed-design/research-colabs/data-ingestion.md)
