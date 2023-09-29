@@ -38,6 +38,7 @@
   * [📈 Analytics](architecture-of-timberid/gcp-guide/analytics.md)
   * [💾 Database Query Builder](architecture-of-timberid/gcp-guide/database-query-builder.md)
   * [💰 Budget Alerts](architecture-of-timberid/gcp-guide/budget-alerts.md)
+  * [🌄 Domain Name Configuration](architecture-of-timberid/gcp-guide/domain-name-configuration.md)
   * [⚠ Backups and Disaster Recovery](architecture-of-timberid/gcp-guide/backups-and-disaster-recovery.md)
 * [🚀 Test Procedure for Production Release](architecture-of-timberid/test-procedure-for-production-release.md)
 
